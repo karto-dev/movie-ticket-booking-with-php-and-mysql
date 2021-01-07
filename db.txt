@@ -1,0 +1,13 @@
+create database of your own;
+for users trying to use my project as your project;
+use xampp control panel;
+create 6 tables which are moviebook,tickets,theatre,userinfo,payment,shows;
+for all tables username is foreign key from usrerinfo
+userinfo has columns username,fname,lname,gender,phone,email,place,username,password;
+moviebook has colums username, mov_id,movie_language,movie_name,rating where username is foreign key from userinfo and mov_id auto increment;
+shows has show_movies,show_date,show_id auto increment;
+tickets has price,ticket_id auto inc,no_of_tickets,totalcost,yrclass;
+theatre has theatre_place,theatre_name;
+payment has cardname,cardnumber,expmonth,expyear,cvv;
+  thats it you r ready to go with the code;
+try to improvise yourself dont simply copy everything im just helping you;
